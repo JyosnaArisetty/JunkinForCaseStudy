@@ -7,7 +7,7 @@ node {
     stage('SCM Checkout')
     {
         echo "Ensuring that the pipeline is configured to clean the Jenkins workspace before checkout"
-		git branch: 'master', changelog: false, poll: false,
+		git branch: 'Master_Branch', changelog: false, poll: false,
 		url: 'https://JyosnaArisetty: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@github.com/JyosnaArisetty/JunkinForCaseStudy.git'
     }
     
